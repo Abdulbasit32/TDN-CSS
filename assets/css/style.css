@@ -127,6 +127,36 @@ background-color: aqua;
     color: white;
 }
 /* third styling starts here */
+/* fourth styling start here */
+.fourth {
+    padding-top: 30px;
+}
+.meta {
+    display: flex;
+    gap: 4rem;
+    padding-bottom: 40px;
+}
+.beta {
+    display: flex;
+    gap: 4rem;
+}
+/* fifth styling start here */
+.fifth {
+    margin-left: 20rem;
+    margin-top: 7rem;
+}
+.fifth .meta a {
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: teal;
+    color: white;
+    border-radius: 0.5rem;
+    margin-left: 12rem;
+    font-weight: bolder;
+}
 
 
 
