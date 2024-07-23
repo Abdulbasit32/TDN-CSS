@@ -3,12 +3,17 @@
 }
     
 body{
-    background-color:aliceblue;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
+    background-color: aliceblue;
     height: 100vh;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}.top {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 120px;
 }
 /* Navbar Styling Start Here */
 .Wrapper {
@@ -20,6 +25,9 @@ margin-bottom: 200px;
 align-items: center;
 padding-left: 50px;
 padding-right: 50px;
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+padding-bottom: 20px;
 }
 .navlinks {
 justify-content: space-around;
@@ -30,7 +38,7 @@ gap: 5rem;
     text-decoration: none;
     color: black;
     gap: 1.5rem;
-    align-items: stretch;
+    align-items: center;
 }
 .navbutton a {
     background-color: teal;
@@ -39,6 +47,8 @@ gap: 5rem;
     padding-top: 10px;
     padding-top: 10px;
     border-radius: 10px;
+    text-decoration: none;
+    color: white;
 }
 .icon img{
     width: 15rem;
@@ -127,6 +137,18 @@ background-color: aqua;
     color: white;
 }
 /* third styling starts here */
+.third p {
+    width: 50rem;
+}
+.third {
+    padding-left: 50px;
+}
+.third h2 {
+    padding-top: 60px;
+}
+.third .hub {
+    color: teal;
+}
 /* fourth styling start here */
 .fourth {
     padding-top: 30px;
@@ -156,6 +178,31 @@ background-color: aqua;
     border-radius: 0.5rem;
     margin-left: 12rem;
     font-weight: bolder;
+    margin-top: 5rem;
+}
+/* footer styling start here */
+.down {
+    background-color: white;
+}
+.last {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+.last ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 3px;
+}
+.dummy {
+    line-height: 2rem;
+}
+.dummy a {
+    text-decoration: none;
+    color: black;
 }
 
 
